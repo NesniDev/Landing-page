@@ -1,0 +1,55 @@
+@media screen and (min-width: 1242px){
+    body{
+        background-image: url("/images/bg-desktop.svg");
+        
+    }
+    .container{
+        width: 90%;
+    }
+    .main{
+        flex-direction: row;
+        text-align: center;
+        align-items: flex-start;
+    }
+    .hero{
+        width: 100%;
+    }
+    .hero__huddle{
+        width: 200px;
+        height: 150px;
+    }
+    .main__ilustracion{
+        margin-top: 0;
+        width: 700px;
+        height: 500px;
+    }
+    .main__text{
+        margin-top: 25px;
+        margin-left: 30px;
+        text-align: start;
+
+    }
+    h1{
+        font-size: 45px;
+    }
+    .main__text p{
+        font-size: 20.5px;
+        font-weight: 100;
+    }
+    .main__text p, h1{
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .main__button{
+        margin-top: 25px;
+        float: left;
+        margin-left: 20px;
+        padding: 15px 70px;
+        font-size: 17px;
+    }
+    .footer{
+        padding: 0;
+        justify-content: flex-end;
+    }
+    
+}
